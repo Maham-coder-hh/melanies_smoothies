@@ -43,7 +43,7 @@ if ingredients_list:
         
         st.subheader(fruit_chosen + ' Nutrition Information')
         smoothiefroot_response = requests.get(
-            f"https://my.smoothiefroot.com/api/fruit/{search_on}
+            f"<a href="https://my.smoothiefroot.com/api/fruit/watermelon"
         )
 
         st.dataframe(
